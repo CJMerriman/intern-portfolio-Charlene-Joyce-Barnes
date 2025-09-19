@@ -1,0 +1,36 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+/* === Global Styles === */
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  padding-left: 1.5rem; /* px-6 */
+  padding-right: 1.5rem; /* px-6 */
+  padding-top: 0.5rem; /* py-2 */
+  padding-bottom: 0.5rem; /* py-2 */
+  border-radius: 0.75rem; /* rounded-xl */
+  font-weight: 500; /* font-medium */
+  transition: all 0.2s; /* transition */
+  background-color: #2563eb; /* bg-blue-600 */
+  color: #fff; /* text-white */
+  box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.1), 0 4px 6px -4px rgba(59, 130, 246, 0.1); /* shadow-lg */
+}
+.btn:hover {
+  background-color: #1d4ed8; /* hover:bg-blue-700 */
+  transform: scale(1.05); /* hover:scale-105 */
+}
