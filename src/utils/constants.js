@@ -14,7 +14,7 @@ export const PROJECTS = [
     tech: ["React", "Vite", "TailwindCSS", "Framer Motion"],
     image: "./src/assets/project-images/victory17-portal.jpg", 
     demo: "#",
-    github: "#",
+    github: "#victory17-app.vercel.app",
     category: "Community"
   },
   {
@@ -23,14 +23,14 @@ export const PROJECTS = [
     tech: ["HTML", "CSS", "JavaScript", "REST API"],
     image: "./src/assets/project-images/api-project.jpg",
     demo: "#",
-    github: "#",
+    github: "#https://github.com/CJMerriman/API-Code-Along.git",
     category: "Learning"
   },
   {
     title: "Smart Calculator App",
     description: "Feature-rich web calculator with light/dark mode toggle, responsive grid layout, and comprehensive arithmetic operations. Built with vanilla JavaScript and modern CSS styling.",
     tech: ["HTML5", "CSS3", "JavaScript ES6", "CSS Grid"],
-    image: "./src/assets/calculator-project.jpg",
+    image: "./src/assets/project-images/calculator-app.jpg",
     demo: "#", 
     github: "#",
     category: "Utility"
