@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-r from-victory-gold via-purple-500 to-indigo-500 p-1 animate-spin-slow">
             <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center">
               <img 
-                src="./src/assets/profile-pic.jpg" 
+                src="../assets/profile-pic/profile_Img - Copy.png" 
                 alt="Victory Through Code - Front End Developer with purpose and faith" 
                 className="w-36 h-36 rounded-full object-cover border-4 border-white/20"
               />
@@ -25,11 +25,11 @@ const Hero = () => {
         </div>
         
         <h1 className="text-6xl md:text-8xl font-black mb-4">
-          <span className="bg-gradient-to-r from-victory-gold via-purple-400 via-blue-400 to-green-400 bg-clip-text text-transparent animate-pulse">
+          <span className="bg-gradient-to-r from-victory-gold via-blue-400 to-green-400 bg-clip-text text-transparent animate-pulse">
             VICTORY
           </span>
           <br />
-          <span className="bg-gradient-to-r from-victory-red via-victory-gold via-pink-400 to-purple-400 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-victory-red via-pink-400 to-purple-400 bg-clip-text text-transparent">
             DEVELOPER
           </span>
         </h1>
